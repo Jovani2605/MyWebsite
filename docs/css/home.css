@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 h1 {
@@ -9,12 +10,75 @@ h1 {
 
 }
 
-a {
-    padding: 0px;
-    margin: 40px;
-    color: darkblue;
-}
 
 body {
     background-color: teal;
+    font-family: cursive;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    border: 2px black;
+}
+
+#top-menu {
+
+    background-color: darkgray;
+    padding: 10px 0;
+}
+
+.main-menu-item {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    color: powderblue;
+    padding: 4px;
+    margin: 3px;
+}
+
+a:hover {
+    color: palevioletred;
+    background-color: rgb(9, 54, 53);
+}
+
+.main-menu-item > a {
+    display: inline-block;
+    width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color: teal;
+}
+
+.main-menu-item > a:hover {
+    color: palevioletred;
+    background-color: powderblue;
+}
+
+.site-title {
+    text-decoration: none;
+    font-size: 2em;
+    color: powderblue;
+}
+
+.site-title:hover {
+    background-color: transparent;
+    color: currentColor;
+}
+
+.page-title {
+    font-size: 3.em;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
 }
