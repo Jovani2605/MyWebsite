@@ -1,6 +1,6 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -10,7 +10,11 @@ h1 {
 }
 
 a {
-    padding: 20px;
-    margin: 20px;
-    color: magenta;
+    padding: 0px;
+    margin: 40px;
+    color: darkblue;
+}
+
+body {
+    background-color: teal;
 }

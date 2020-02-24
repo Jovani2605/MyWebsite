@@ -1,0 +1,37 @@
+h1 {
+    color: orangered;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 3px purple;
+    margin: 20px;
+    text-align: center;
+}
+
+#home-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 4em;
+}
+
+
+.green {
+    background-color: seagreen;
+}
+
+.big {
+    width: 300px;
+    height: 300px;
+}
+
+.big > p {
+    color: yellow
+}
