@@ -1,0 +1,52 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 4px;
+
+}
+
+.one {
+    background-color: blueviolet;
+    
+}
+
+.two {
+    background-color: burlywood;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.four {
+    background-color: chartreuse;
+}
+
+.five {
+    background-color: cornflowerblue;
+}
+
+.six {
+    background-color: crimson;
+}
+
+.seven {
+    background-color: cyan;
+}
+
+.eight {
+    background-color: darkgoldenrod;
+}
+
+.nine {
+    background-color: darkgreen;
+}
