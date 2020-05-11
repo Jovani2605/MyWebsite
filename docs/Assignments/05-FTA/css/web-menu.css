@@ -1,0 +1,26 @@
+* {
+background-color: lightcoral;
+color: cornsilk;
+padding: 0;
+margin: 0;
+}
+
+header {
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 80vw;
+  }
+  
+  #main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
